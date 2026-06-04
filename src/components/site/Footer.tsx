@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Snowflake, Facebook, Instagram, Twitter, Youtube, Mail, Phone, MapPin, ArrowRight } from "lucide-react";
+import { Snowflake, Globe, Camera, Send, Video, Mail, Phone, MapPin, ArrowRight } from "lucide-react";
 
 export function Footer() {
   return (
