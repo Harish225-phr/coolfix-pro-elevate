@@ -21,7 +21,7 @@ export function Footer() {
               <button className="gradient-primary flex h-9 w-9 items-center justify-center rounded-full text-deep"><ArrowRight className="h-4 w-4" /></button>
             </form>
             <div className="mt-6 flex gap-3">
-              {[Facebook, Instagram, Twitter, Youtube].map((I, i) => (
+              {[Globe, Camera, Send, Video].map((I, i) => (
                 <a key={i} href="#" className="glass flex h-10 w-10 items-center justify-center rounded-full transition-colors hover:bg-white/15"><I className="h-4 w-4" /></a>
               ))}
             </div>
