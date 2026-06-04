@@ -30,7 +30,7 @@ export const Route = createFileRoute("/services/$slug")({
 });
 
 function ServiceDetail() {
-  const s = Route.useLoaderData();
+  const s = Route.useLoaderData() as (typeof services)[number];
   const Icon = s.icon;
   return (
     <>
